@@ -1,0 +1,23 @@
+# name url [undirected|directed] [skip-first]
+# Columns: name, download URL, optional `undirected` (default) or `directed`,
+# optional `skip-first` to drop the first non-comment line (for sources whose
+# first line is a vertex/edge-count header rather than an edge).
+Twitch http://snap.stanford.edu/data/twitch_gamers.zip undirected
+HepPh http://snap.stanford.edu/data/cit-HepPh.txt.gz directed
+HepTh http://snap.stanford.edu/data/cit-HepTh.txt.gz directed
+Amazon http://snap.stanford.edu/data/bigdata/communities/com-amazon.ungraph.txt.gz undirected
+Facebook http://snap.stanford.edu/data/facebook_combined.txt.gz undirected
+DBLP http://snap.stanford.edu/data/bigdata/communities/com-dblp.ungraph.txt.gz undirected
+Slashdot http://snap.stanford.edu/data/soc-Slashdot0902.txt.gz directed
+Youtube http://snap.stanford.edu/data/bigdata/communities/com-youtube.ungraph.txt.gz undirected
+EU http://snap.stanford.edu/data/email-Eu-core.txt.gz directed
+Enron http://snap.stanford.edu/data/email-Enron.txt.gz directed
+Gnutella http://snap.stanford.edu/data/p2p-Gnutella31.txt.gz directed
+Epinions http://snap.stanford.edu/data/soc-Epinions1.txt.gz directed
+California http://snap.stanford.edu/data/roadNet-CA.txt.gz undirected
+Orkut http://snap.stanford.edu/data/bigdata/communities/com-orkut.ungraph.txt.gz undirected
+Pennsylvania http://snap.stanford.edu/data/roadNet-PA.txt.gz undirected
+Texas http://snap.stanford.edu/data/roadNet-TX.txt.gz undirected
+# MatrixMarket pattern-symmetric (1-based, dimension header dropped by
+# skip-first); networkrepository mirror of the DIMACS delaunay_n21 instance.
+Delaunay-N21 http://nrvis.com/download/data/misc/delaunay_n21.zip undirected skip-first
